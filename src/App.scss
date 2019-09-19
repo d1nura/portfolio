@@ -1,0 +1,18 @@
+// @import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap");
+// @import url("https://fonts.googleapis.com/css?family=Coda+Caption:800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Faster+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+.App {
+  width: 100%;
+  height: auto;
+  padding: 5vh 1vw 5vh 1vw;
+  // border: 1px solid red;
+  h1 {
+    font-family: "Bungee", cursive;
+    font-size: 4vw;
+    text-decoration: underline overline;
+    text-align: center;
+  }
+}

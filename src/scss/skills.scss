@@ -1,0 +1,27 @@
+.skills {
+  width: 100%;
+  height: auto;
+  padding: 4% 2% 2% 2%;
+  //   border: 1px solid red;
+
+  ul {
+    // display: flex;
+    width: 100%;
+    justify-content: center;
+    // border: 1px solid red;
+    padding: 8vh 1vh 10vh 1vh;
+  }
+  li {
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+    list-style: none;
+    padding: 1vw;
+    font-size: 1.4vw;
+    border-left: 1px solid rgb(0, 0, 0);
+    // transition: 0.2s;
+    &:hover {
+      color: white;
+      background: black;
+    }
+  }
+}

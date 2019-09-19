@@ -1,0 +1,57 @@
+.projects {
+  //   border: 1px solid red;
+  padding: 2% 2% 4% 2%;
+  width: 100%;
+  height: auto;
+}
+
+#projectGrid {
+  margin-top: 10vh;
+  //   border: 1px solid red;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 80vh;
+  grid-gap: 2%;
+}
+
+#projectItem {
+  //   border: 1px solid blue;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  h3 {
+    font-family: "Press Start 2P", cursive;
+    font-size: 1.2vw;
+    text-align: center;
+    margin-top: 4vh;
+    font-weight: 100;
+    text-decoration: underline;
+  }
+}
+
+#projectPic {
+  height: 90%;
+  overflow: hidden;
+  box-shadow: 1px 1px 1rem 0.3rem rgb(231, 231, 231);
+  border: 4px solid black;
+  img {
+    width: 100%;
+    // filter: grayscale(0.5);
+    transition: 0.4s;
+    &:hover {
+      filter: inherit;
+      cursor: pointer;
+    }
+  }
+}
+
+// #projectPic {
+//   position: relative;
+//   width: 100%;
+//   height: 100%;
+//   border: 1px solid red;
+//   background-position: center;
+// }
